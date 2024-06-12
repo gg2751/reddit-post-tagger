@@ -1,4 +1,7 @@
-# Reddit-Flair-Detector
+# Reddit Flair Classifier 
+
+[Last Updated: Aug 10, 2021. Commited on June 12, 2024 for Archiving Purposes.]
+
 Reddit Flair Detector for the subreddit 'India' 
 
 <h3> About: </h3>
@@ -12,12 +15,6 @@ import requests
 files = {'upload_file': open('file.txt','rb')}
 r = requests.post('https://secure-sands-63470.herokuapp.com/automated_testing', files=files)
 ~~~
-
-1. <a href= "https://github.com/gaurigupta31/Reddit-Flair-Detector/blob/master/Reddit-Data-Collection.ipynb">Reddit Data Collection</a>
-2. <a href= "https://github.com/gaurigupta31/Reddit-Flair-Detector/blob/master/Exploratory-Data-Analysis.ipynb">Exploratory Data Analysis </a>
-3. <a href = "https://github.com/gaurigupta31/Reddit-Flair-Detector/blob/master/Reddit-Flair-Detector.ipynb">Building Flair Detector </a>
-4. <a href="https://github.com/gaurigupta31/Reddit-Flair-Detector/tree/master/app">Web App </a>
-5. <a href="https://secure-sands-63470.herokuapp.com/">Deployment </a>
 
 <h3> Development Environment: </h3>
 
